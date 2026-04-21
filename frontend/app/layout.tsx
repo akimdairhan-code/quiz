@@ -8,7 +8,7 @@ import { cookies } from "next/headers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Encore + Next.js",
+  title: "quiz",
 };
 
 const navLinks = [
@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <nav className={styles.nav}>
+          <nav className={styles.nav} style={{ paddingLeft: "32px" }}>
             <div className={styles.navLinks}>
               {navLinks.map(({ href, label }) => (
                 <Link key={href} href={href}>
