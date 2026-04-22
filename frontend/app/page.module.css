@@ -3,8 +3,9 @@
   width: 100%;
   min-height: calc(100vh - var(--nav-height));
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
-
 .nav {
   height: var(--nav-height);
   display: flex;
