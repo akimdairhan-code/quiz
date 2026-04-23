@@ -45,7 +45,7 @@ export default function QuizzesPage() {
 }
 
 const s: Record<string, React.CSSProperties> = {
-  container: { maxWidth: "900px", margin: "0 auto", padding: "32px 16px" },
+  container: { maxWidth: "900px", width: "100%", padding: "32px 16px" },
   center: { textAlign: "center", padding: "40px" },
   header: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" },
   title: { margin: 0, fontSize: "28px", color: "#1a1a2e" },
